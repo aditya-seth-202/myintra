@@ -1,0 +1,23 @@
+.mainContainer {
+  @apply px-14 grid grid-cols-[30%_30%_40%];
+  background-color: #fafbfc;
+}
+
+.listLink {
+  @apply text-textGrey  pb-[5px] text-[15px];
+}
+.listLinkHeading {
+  @apply text-textBlack font-bold text-[12px] py-3;
+}
+.linkMainCont {
+  @apply grid grid-cols-2;
+}
+.listingCont {
+  @apply py-4;
+}
+.mediaMainCont {
+  @apply py-4;
+}
+.returnImg {
+  @apply h-[270px] pt-[100px] pl-10;
+}

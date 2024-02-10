@@ -1,0 +1,25 @@
+.mainContainer {
+  @apply flex items-center;
+}
+
+.logocontainer {
+  @apply h-20 p-4 flex;
+}
+.navlinks {
+  @apply p-4;
+}
+.navlinkContainer {
+  @apply flex;
+}
+.navIconBtns {
+  @apply ml-auto  flex;
+}
+.navIcons {
+  @apply p-4;
+}
+.navSearchContainer { 
+@apply w-full flex;
+}
+.searchInput{
+@apply ml-auto
+}
