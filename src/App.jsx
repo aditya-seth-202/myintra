@@ -12,6 +12,8 @@ import { ROUTE_NAMES } from "./constants/routeNames";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./routes/Home/Home";
+import ProductListing from "./routes/ProductListing/ProductListing";
+import Login from "./routes/Login/Login";
 
 function App() {
   return (
@@ -20,9 +22,14 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path={ROUTE_NAMES.HOME} element={<Home/>} />
+            <Route path={ROUTE_NAMES.HOME} element={<Home />} />
+            <Route
+              path={ROUTE_NAMES.PRODUCT_LISTING}
+              element={<ProductListing />}
+            />
+            <Route path={ROUTE_NAMES.LOGIN} element={<Login />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </Router>
       </ReduxProvidor>
     </ThemeProvider>

@@ -1,0 +1,40 @@
+.mainCont {
+  @apply flex justify-center items-center w-full h-[80vh];
+  background-image: linear-gradient(to bottom right, #feedf6, #fcf0e2);
+}
+.contentDiv {
+  @apply w-[400px] flex flex-col;
+}
+.formCont {
+  @apply p-8 bg-white;
+}
+.formLoginHeadCap {
+  @apply text-textBlack text-[20px] font-semibold;
+}
+.formLoginHeadSmall {
+  @apply text-textGrey text-[16px];
+}
+.mobileInput {
+  @apply py-4;
+}
+.policyAgree {
+  @apply my-[21px];
+}
+.policyAgreeGrey {
+  @apply text-textGrey  text-[16px];
+}
+.formHeading {
+  @apply py-3;
+}
+.orSeperator {
+  @apply p-3 text-center text-textGrey;
+}
+.googleAuthCont {
+  @apply flex justify-center;
+}
+.mobilInput {
+  @apply py-3;
+}
+.submitBtn {
+  @apply py-3;
+}

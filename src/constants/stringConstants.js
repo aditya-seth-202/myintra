@@ -1,6 +1,8 @@
 export const STATIC_STRINGS = {
   CONTENT: {},
-  BUTTON: {},
+  BUTTON: {
+    CONTINUE: "Continue",
+  },
   NAV_OPTIONS: {
     HOME: "Home",
     MEN: "Men",
@@ -42,6 +44,15 @@ export const STATIC_STRINGS = {
       RETURNS: "Returns",
       PRIVACY_POLICY: "Privacy Policy",
       GRIEVANCE_OFFICER: "Grievance Officer",
+    },
+  },
+  LOGIN: {
+    LOGIN: "Login",
+    SIGNUP: "Sign Up",
+    OR: " or ",
+    PLACEHOLDER: "+91 | Mobile No.",
+    POLICY_TXT: {
+      BY_AGREE: "By continuing, I agree to the Terms & conditions.",
     },
   },
 };

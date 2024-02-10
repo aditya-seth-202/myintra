@@ -8,4 +8,8 @@ export const URLS = {
     SHOP_BY_CATEGORY:
       "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/1/7fa88863-9515-4688-a21e-d33783c92fe01706788473061-Shop-by-category-----2.jpg",
   },
+  GOOGLE: {
+    GOOGLE_CLIENTID:
+      "110229928708-hg3dcvoj8p58pp7bnjkov4dqj2pq4uic.apps.googleusercontent.com",
+  },
 };
