@@ -1,0 +1,12 @@
+.mainCont {
+}
+.imgGrid {
+  @apply grid grid-cols-2;
+}
+.shopByCat {
+  @apply flex justify-center;
+}
+
+.couponBanner {
+  @apply py-16;
+}

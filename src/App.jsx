@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ROUTE_NAMES } from "./constants/routeNames";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Home from "./routes/Home/Home";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path={ROUTE_NAMES.HOME} element={<></>} />
+            <Route path={ROUTE_NAMES.HOME} element={<Home/>} />
           </Routes>
           <Footer/>
         </Router>
