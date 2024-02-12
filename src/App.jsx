@@ -14,25 +14,28 @@ import Footer from "./components/Footer/Footer";
 import Home from "./routes/Home/Home";
 import ProductListing from "./routes/ProductListing/ProductListing";
 import Login from "./routes/Login/Login";
-
+import { GoogleOAuthProvider } from "@react-oauth/google";
+import { URLS } from "./constants/url";
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <ReduxProvidor store={store}>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path={ROUTE_NAMES.HOME} element={<Home />} />
-            <Route
-              path={ROUTE_NAMES.PRODUCT_LISTING}
-              element={<ProductListing />}
-            />
-            <Route path={ROUTE_NAMES.LOGIN} element={<Login />} />
-          </Routes>
-          <Footer />
-        </Router>
-      </ReduxProvidor>
-    </ThemeProvider>
+    <GoogleOAuthProvider clientId={URLS?.GOOGLE.GOOGLE_CLIENTID}>
+      <ThemeProvider theme={theme}>
+        <ReduxProvidor store={store}>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path={ROUTE_NAMES.HOME} element={<Home />} />
+              <Route
+                path={ROUTE_NAMES.PRODUCT_LISTING}
+                element={<ProductListing />}
+              />
+              <Route path={ROUTE_NAMES.LOGIN} element={<Login />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </ReduxProvidor>
+      </ThemeProvider>
+    </GoogleOAuthProvider>
   );
 }
 

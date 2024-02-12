@@ -7,6 +7,8 @@ export const URLS = {
       "https://assets.myntassets.com/w_490,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/5/f6857071-a235-49de-a659-1ab08bcd41d11707154477945-Desktop_Hp_02.jpg",
     SHOP_BY_CATEGORY:
       "https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2024/2/1/7fa88863-9515-4688-a21e-d33783c92fe01706788473061-Shop-by-category-----2.jpg",
+    PRODUCT_CARD:
+      "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/25072090/2023/9/30/6be97619-12fc-40c3-a91b-b5d5f13ba8181696013416163StormbornMenBlackPrintedRawEdgeT-shirt1.jpg",
   },
   GOOGLE: {
     GOOGLE_CLIENTID:

@@ -1,0 +1,13 @@
+.mainCont {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.productsView {
+  @apply grid grid-cols-5 gap-4;
+}
+.productsViewOuter {
+  @apply p-4;
+}
+.paginationCont {
+  @apply flex justify-center p-4;
+}
